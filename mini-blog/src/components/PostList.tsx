@@ -1,4 +1,5 @@
 import Post from './Post';
+import withLogger from '../hoc/withLogger';
 import type { Post as PostType } from '../types/Post';
 import '../styles/PostList.css';
 
@@ -39,4 +40,4 @@ function PostList() {
   );
 }
 
-export default PostList;
+export default withLogger(PostList);
