@@ -1,0 +1,43 @@
+.post {
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #1a1a1a;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  .postAuthor {
+    font-style: italic;
+    color: #aaa;
+  }
+  
+  .postPreview {
+    color: #ddd;
+    line-height: 1.5;
+  }
+  
+  .postDate {
+    font-size: 0.85rem;
+    color: #777;
+  }
+  
+  .badgeNew {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #7c3aed;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+  }
+  
+  .highlightAuthor {
+    border-color: #7c3aed;
+    background-color: #241c35;
+  }
