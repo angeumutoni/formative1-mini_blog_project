@@ -9,8 +9,7 @@ function Post({ post }: PostProps) {
   const preview = post.content.split(' ').slice(0, 10).join(' ') + '...';
 
   const isNew =
-    new Date().getTime() - new Date(post.datePosted).getTime() 
-    24 * 60 * 60 * 1000;
+    new Date().getTime() - new Date(post.datePosted).getTime() < 24 * 60 * 60 * 1000;
 
   return (
     <div className="post">
