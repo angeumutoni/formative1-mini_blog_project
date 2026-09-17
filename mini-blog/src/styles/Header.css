@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem;
+  }
+  
+  .nav-link {
+    color: #a78bfa;
+    text-decoration: underline;
+    font-size: 0.95rem;
+  }
